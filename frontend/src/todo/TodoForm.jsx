@@ -12,6 +12,7 @@ const TodoForm = props => (
             {/* Mudamos o nome da propriedade style para btnStyle, pois o Lint reclamava e essa é a melhor maneira de contornar esse problema */}
             <IconButton btnStyle='primary' icon='plus' onClick={props.handleAdd}></IconButton>
             <IconButton btnStyle='info' icon='search' onClick={props.handleSearch}/>
+            <IconButton btnStyle='default' icon='close' onClick={props.handleClear}/>
         </Grid>
     </div>
 )
