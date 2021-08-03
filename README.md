@@ -20,7 +20,7 @@ Requires [Node.js](https://nodejs.org/) v14+ to run.
 ```sh
 cd backend
 npm i
-npm start
+npm dev
 ```
 
 ## Installation Frontend
